@@ -1,0 +1,158 @@
+/* body */
+		body {
+			width: 990px;
+			height: auto;
+			background-color: #000;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		@font-face {
+			font-family: "Fjalla One";	
+			src: url("fonts/FjallaOne-Regular.ttf");
+		}
+
+		p, a, h2 {
+			font-family: "Fjalla One", serif;
+			color: #FFF;
+		}
+
+		iframe {
+			border: hidden;
+		}
+/* /body */
+
+/* header */
+		#MainTitle {
+			width: 990px;
+			height: auto;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		#MainTitle_Link {
+			display: block;
+			width: 750px;
+			height: 90px;
+			opacity: 0;
+			position: absolute;
+			left: 120px;
+			top: 230px;
+		}
+
+		#header {
+			position: relative;
+			width: 990px;
+		}
+
+		.Logo {
+			opacity: 0.7;
+			background-color: #000;
+			position: absolute;
+			width: 115px;
+			height: auto;
+			transition: transform 0.7s ease-out;
+		}
+
+		.Logo:hover {
+			opacity: 1;
+			transform: rotate(720deg);
+		}
+
+		#Roadtrips_Logo {
+			top: 60px;
+			left: 66px;
+		}
+
+		#Drawings_Logo {
+			top: 112px;
+			left: 250px;
+		}
+
+		#Consuelo_Logo {
+			top: 60px;
+			left: 437px;
+		}
+
+		#Strangers_Logo {
+			top: 112px;
+			right: 253px;
+		}
+
+		#Coffins_Logo {
+			top: 60px;
+			right: 66px;
+		}
+
+		#Envelope_Logo {
+			bottom: 64px;
+			left: 66px;
+		}
+
+		#Radios_Logo {
+			bottom: 116px;
+			left: 253px;
+		}
+
+		#Kodak_Logo {
+			bottom: 64px;
+			left: 437px;
+		}
+
+		#Encounter_Logo {
+			bottom: 116px;
+			right: 250px;
+		}
+
+		#Dates_Logo {
+			bottom: 64px;
+			right: 66px;
+		}
+/* /header */
+
+/* nav */
+		#navbar {
+			background-color: #000;
+			padding: 0px;
+			margin: 0px;
+			padding-bottom: 20px;
+		}
+
+		#nav {
+			width: 849px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#nav ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+			display: flex;
+		}
+
+		.nav_li {
+			color: #FFF;
+			text-align: center;
+			width: 283px;
+			line-height: 25px;
+			padding: 10px 0px;
+			display: none;
+			text-decoration: none;
+		}
+
+		.nav_item img {
+			width: 283px;
+		}
+
+		#active_nav, .nav_item:hover .nav_li {
+			display: block;
+		}
+
+		#nav ul a {
+			font-size: 30px;
+			font-weight: bold;
+		}
+/* /nav */
