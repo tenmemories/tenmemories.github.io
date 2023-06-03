@@ -149,11 +149,13 @@
 		.nav_li {
 			color: #FFF;
 			text-align: center;
-			width: 283px;
+			width: 275px;
 			line-height: 25px;
 			padding: 10px 0px;
 			display: none;
 			text-decoration: none;
+			margin-right: auto;
+			margin-left: auto;
 		}
 
 		.nav_item img {
